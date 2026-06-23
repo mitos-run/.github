@@ -3,7 +3,7 @@
   <circle cx="24" cy="24" r="6" fill="#FF45C8"/>
   <circle cx="46" cy="24" r="6" fill="#FFC24B"/>
   <circle cx="68" cy="24" r="6" fill="#4DF0A0"/>
-  <text x="380" y="29" text-anchor="middle" font-size="13" fill="#5B6472">mitos — python</text>
+  <text x="380" y="29" text-anchor="middle" font-size="13" fill="#5B6472">mitos · python</text>
   <line x1="0" y1="48" x2="760" y2="48" stroke="#1B1F2A"/>
   <text x="28" y="92"><tspan fill="#FF45C8">$ </tspan><tspan fill="#E6E9EF">pip install mitos</tspan></text>
   <text x="28" y="120"><tspan fill="#FF45C8">$ </tspan><tspan fill="#E6E9EF">python</tspan></text>

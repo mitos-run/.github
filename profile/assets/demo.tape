@@ -1,4 +1,4 @@
-# mitos SDK demo — render with: make demo  (needs vhs + ~/.mitos_api_key + live mitos.run)
+# mitos SDK demo. render with: make demo  (needs vhs + ~/.mitos_api_key + live mitos.run)
 Output profile/assets/demo.gif
 
 Set Shell "bash"

@@ -3,9 +3,9 @@
 Organization-level community-health files and the public profile for the
 [mitos-run](https://github.com/mitos-run) org.
 
-- [`profile/README.md`](profile/README.md) — the landing page rendered at
+- [`profile/README.md`](profile/README.md): the landing page rendered at
   <https://github.com/mitos-run>.
-- `profile/assets/` — brand marks and the terminal demo.
+- `profile/assets/`: brand marks and the terminal demo.
 
 ## Regenerate the demo
 
