@@ -2,11 +2,11 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/mitos-mark-white.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/mitos-mark-black.svg">
-    <img alt="mitos" src="assets/mitos-mark-black.svg" width="92" height="92">
+    <img alt="Mitos" src="assets/mitos-mark-black.svg" width="92" height="92">
   </picture>
 </p>
 
-<h1 align="center">mitos</h1>
+<h1 align="center">Mitos</h1>
 
 <p align="center">
   <b>Isolated, forkable computers for your AI agents.</b><br/>
@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <img alt="mitos SDK: create a microVM sandbox, run code, and fork it into isolated parallel attempts" src="assets/demo.gif" width="760">
+  <img alt="Mitos SDK: create a microVM sandbox, run code, and fork it into isolated parallel attempts" src="assets/demo.gif" width="760">
 </p>
 
 ### Try it in a few lines
@@ -44,7 +44,7 @@ sb.terminate()
 > to the hosted endpoint, so **no Kubernetes required**. The same code runs
 > against a self-hosted cluster by setting `MITOS_BASE_URL`.
 
-## Why mitos
+## Why Mitos
 
 - **⑂ Live-fork a _running_ VM.** N-way copy-on-write fork of a live microVM:
   daughters share the parent's memory pages until they write, so each fork lands
@@ -123,4 +123,4 @@ We build in the open. Stars and issues genuinely help us prioritize.
 [Contributing](https://github.com/mitos-run/mitos/blob/main/CONTRIBUTING.md) ·
 [Security](https://github.com/mitos-run/mitos/blob/main/SECURITY.md)
 
-<sub>Apache-2.0 · mitos™ · <a href="https://github.com/mitos-run/mitos/blob/main/TRADEMARKS.md">trademarks</a>.</sub>
+<sub>Apache-2.0 · Mitos™ · <a href="https://github.com/mitos-run/mitos/blob/main/TRADEMARKS.md">trademarks</a>.</sub>
