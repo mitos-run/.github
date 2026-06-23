@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <img alt="mitos SDK: create a microVM sandbox, then fork it into parallel attempts" src="assets/demo.svg" width="760">
+  <img alt="mitos SDK: create a microVM sandbox, run code, and fork it into isolated parallel attempts" src="assets/demo.gif" width="760">
 </p>
 
 ### Try it in a few lines
@@ -67,7 +67,7 @@ sb.terminate()
 A key and the SDK. No infrastructure to manage.
 
 ```bash
-pip install mitos
+pip install mitos-run          # the import stays `import mitos`
 export MITOS_API_KEY=sk-...
 ```
 
