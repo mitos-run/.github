@@ -1,0 +1,7 @@
+.mitos_api_key
+*.key
+node_modules/
+
+# internal planning / SDD scratch — never publish to the public org repo
+.superpowers/
+docs/superpowers/
