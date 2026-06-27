@@ -27,8 +27,8 @@
     {
       "name": "SUPPORT",
       "channels": [
-        { "name": "support", "type": "forum", "topic": "Hosted and SDK usage questions. One post per problem. Search before posting." },
-        { "name": "self-hosting", "type": "forum", "topic": "Running Mitos on your own KVM/Kubernetes cluster." },
+        { "name": "support", "type": "forum", "topic": "Hosted and SDK usage questions. One post per problem. Search before posting.", "tags": ["question", "bug", "hosted", "sdk-python", "resolved"], "defaultReaction": "👍", "starterPost": { "title": "Read before posting", "body": "Welcome to support. To get help fast:\n\n- One problem per post.\n- Say whether you are on **hosted** or **self-hosted**, and your SDK version.\n- Paste the exact command and the full error, not a screenshot.\n- Add a tag (question, bug, hosted, sdk-python) so others can filter.\n- Mark your post **resolved** when it is solved so the next person knows.\n\nDocs: <https://github.com/mitos-run/mitos/blob/main/docs/quickstart.md>" } },
+        { "name": "self-hosting", "type": "forum", "topic": "Running Mitos on your own KVM/Kubernetes cluster.", "tags": ["kubernetes", "kvm", "networking", "install", "resolved"], "defaultReaction": "👍", "starterPost": { "title": "Read before posting", "body": "Running Mitos on your own cluster? Include this so we can help:\n\n- Kubernetes flavor and version (or bare KVM), and node OS.\n- Whether KVM/nested virt is available on the nodes.\n- The component and logs involved (controller, forkd, guest agent).\n- What you tried and the exact error.\n\nTag your post (kubernetes, kvm, networking, install) and mark it **resolved** when fixed." } },
         { "name": "feedback-ideas", "type": "text", "topic": "Quick feature wishes. Larger asks belong in GitHub issues or Discussions." }
       ]
     },

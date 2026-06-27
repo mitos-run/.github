@@ -169,6 +169,34 @@ async function main() {
     }
   }
 
+  // 2b. Forum setup: tags, default reaction, pinned starter post ------------
+  const forums = cfg.categories.flatMap((c) => c.channels).filter((ch) => ch.type === "forum");
+  if (forums.length) console.log("\nForum setup");
+  for (const ch of forums) {
+    const id = chanId[ch.name];
+    if (ch.tags || ch.defaultReaction) {
+      await api("PATCH", `/channels/${id}`, {
+        available_tags: (ch.tags ?? []).map((name) => ({ name, moderated: false, emoji_id: null, emoji_name: null })),
+        default_reaction_emoji: ch.defaultReaction ? { emoji_id: null, emoji_name: ch.defaultReaction } : null,
+      });
+      console.log(`  #${ch.name}: tags + default reaction set`);
+    }
+    if (ch.starterPost) {
+      const active = await api("GET", `/channels/${id}/threads/active`).catch(() => ({ threads: [] }));
+      const guildThreads = (active.threads ?? []).filter((t) => t.parent_id === id);
+      if (guildThreads.length) {
+        console.log(`  #${ch.name}: starter post exists`);
+      } else {
+        const thread = await api("POST", `/channels/${id}/threads`, {
+          name: ch.starterPost.title,
+          message: { content: ch.starterPost.body },
+        });
+        await api("PATCH", `/channels/${thread.id}`, { flags: 2 }); // pin
+        console.log(`  #${ch.name}: starter post created and pinned`);
+      }
+    }
+  }
+
   // 3. Community settings ---------------------------------------------------
   console.log("\nCommunity settings");
   const features = new Set(guild.features || []);

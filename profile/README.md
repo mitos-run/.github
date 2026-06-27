@@ -17,7 +17,8 @@
   <a href="https://mitos.run">Website</a> &nbsp;·&nbsp;
   <a href="https://github.com/mitos-run/mitos">Core repo</a> &nbsp;·&nbsp;
   <a href="https://github.com/mitos-run/mitos/blob/main/docs/quickstart.md">Quickstart</a> &nbsp;·&nbsp;
-  <a href="https://github.com/mitos-run/mitos/discussions">Discussions</a>
+  <a href="https://github.com/mitos-run/mitos/discussions">Discussions</a> &nbsp;·&nbsp;
+  <a href="https://discord.gg/zddgd2pgab">Discord</a>
 </p>
 
 <p align="center">
